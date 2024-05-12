@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BrowserFactory {
 
-	//cretae two methods
+	//cretae two methods for
 	
 	
 	public static WebDriver StartApplication(WebDriver driver,String Browsername,String URL) 
@@ -40,6 +40,7 @@ public class BrowserFactory {
 	}
 	public static void quitBrowser(WebDriver driver)
 	{
+		driver.close();
 		driver.quit();
 	}
 	
