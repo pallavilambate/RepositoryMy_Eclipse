@@ -40,7 +40,7 @@ public class BrowserFactory {
 	}
 	public static void quitBrowser(WebDriver driver)
 	{
-		driver.close();
+		 driver.close();
 		driver.quit();
 	}
 	
